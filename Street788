@@ -1,0 +1,86 @@
+Street_legends_gr/
+├── index.html
+├── poster.png
+└── README.md
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Street Legends GR</title>
+
+<style>
+body{
+    margin:0;
+    background:#000;
+    color:white;
+    font-family:Arial;
+    text-align:center;
+}
+
+.logo{
+    color:#FFD700;
+    font-size:40px;
+    font-weight:bold;
+    margin-top:20px;
+}
+
+.poster{
+    width:95%;
+    max-width:1000px;
+    border-radius:15px;
+    margin:20px auto;
+    display:block;
+    box-shadow:0 0 25px rgba(255,215,0,.5);
+}
+
+.buttons{
+    margin:30px;
+}
+
+.btn{
+    display:inline-block;
+    background:#FFD700;
+    color:black;
+    text-decoration:none;
+    padding:15px 25px;
+    margin:10px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+footer{
+    margin:30px;
+    color:#aaa;
+}
+</style>
+</head>
+
+<body>
+
+<div class="logo">
+👑 STREET_LEGENDS_GR
+</div>
+
+<img src="poster.png" class="poster">
+
+<div class="buttons">
+
+<a class="btn" href="poster.png" target="_blank">
+📸 Άνοιγμα Αφίσας
+</a>
+
+<a class="btn"
+href="https://maps.google.com/?q=CocoPan+on+the+beach+Ωρωπός"
+target="_blank">
+📍 CocoPan Ωρωπός
+</a>
+
+</div>
+
+<footer>
+Street Legends GR © 2026
+</footer>
+
+</body>
+</html>
